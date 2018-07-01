@@ -1,0 +1,582 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		42FFD11B20E5559200D97931 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42FFD11A20E5559200D97931 /* AppDelegate.swift */; };
+		42FFD11D20E5559200D97931 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42FFD11C20E5559200D97931 /* ViewController.swift */; };
+		42FFD11F20E5559400D97931 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 42FFD11E20E5559400D97931 /* Assets.xcassets */; };
+		42FFD12220E5559400D97931 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 42FFD12020E5559400D97931 /* Main.storyboard */; };
+		42FFD12E20E5559400D97931 /* Nativefier_GUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42FFD12D20E5559400D97931 /* Nativefier_GUITests.swift */; };
+		42FFD13920E5559400D97931 /* Nativefier_GUIUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42FFD13820E5559400D97931 /* Nativefier_GUIUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		42FFD12A20E5559400D97931 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 42FFD10F20E5559200D97931 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 42FFD11620E5559200D97931;
+			remoteInfo = "Nativefier GUI";
+		};
+		42FFD13520E5559400D97931 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 42FFD10F20E5559200D97931 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 42FFD11620E5559200D97931;
+			remoteInfo = "Nativefier GUI";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		42FFD11720E5559200D97931 /* Nativefier GUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Nativefier GUI.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		42FFD11A20E5559200D97931 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		42FFD11C20E5559200D97931 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		42FFD11E20E5559400D97931 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		42FFD12120E5559400D97931 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		42FFD12320E5559400D97931 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		42FFD12420E5559400D97931 /* Nativefier_GUI.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Nativefier_GUI.entitlements; sourceTree = "<group>"; };
+		42FFD12920E5559400D97931 /* Nativefier GUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Nativefier GUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		42FFD12D20E5559400D97931 /* Nativefier_GUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Nativefier_GUITests.swift; sourceTree = "<group>"; };
+		42FFD12F20E5559400D97931 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		42FFD13420E5559400D97931 /* Nativefier GUIUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Nativefier GUIUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		42FFD13820E5559400D97931 /* Nativefier_GUIUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Nativefier_GUIUITests.swift; sourceTree = "<group>"; };
+		42FFD13A20E5559400D97931 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		42FFD11420E5559200D97931 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		42FFD12620E5559400D97931 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		42FFD13120E5559400D97931 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		42FFD10E20E5559200D97931 = {
+			isa = PBXGroup;
+			children = (
+				42FFD11920E5559200D97931 /* Nativefier GUI */,
+				42FFD12C20E5559400D97931 /* Nativefier GUITests */,
+				42FFD13720E5559400D97931 /* Nativefier GUIUITests */,
+				42FFD11820E5559200D97931 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		42FFD11820E5559200D97931 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				42FFD11720E5559200D97931 /* Nativefier GUI.app */,
+				42FFD12920E5559400D97931 /* Nativefier GUITests.xctest */,
+				42FFD13420E5559400D97931 /* Nativefier GUIUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		42FFD11920E5559200D97931 /* Nativefier GUI */ = {
+			isa = PBXGroup;
+			children = (
+				42FFD11A20E5559200D97931 /* AppDelegate.swift */,
+				42FFD11C20E5559200D97931 /* ViewController.swift */,
+				42FFD11E20E5559400D97931 /* Assets.xcassets */,
+				42FFD12020E5559400D97931 /* Main.storyboard */,
+				42FFD12320E5559400D97931 /* Info.plist */,
+				42FFD12420E5559400D97931 /* Nativefier_GUI.entitlements */,
+			);
+			path = "Nativefier GUI";
+			sourceTree = "<group>";
+		};
+		42FFD12C20E5559400D97931 /* Nativefier GUITests */ = {
+			isa = PBXGroup;
+			children = (
+				42FFD12D20E5559400D97931 /* Nativefier_GUITests.swift */,
+				42FFD12F20E5559400D97931 /* Info.plist */,
+			);
+			path = "Nativefier GUITests";
+			sourceTree = "<group>";
+		};
+		42FFD13720E5559400D97931 /* Nativefier GUIUITests */ = {
+			isa = PBXGroup;
+			children = (
+				42FFD13820E5559400D97931 /* Nativefier_GUIUITests.swift */,
+				42FFD13A20E5559400D97931 /* Info.plist */,
+			);
+			path = "Nativefier GUIUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		42FFD11620E5559200D97931 /* Nativefier GUI */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 42FFD13D20E5559400D97931 /* Build configuration list for PBXNativeTarget "Nativefier GUI" */;
+			buildPhases = (
+				42FFD11320E5559200D97931 /* Sources */,
+				42FFD11420E5559200D97931 /* Frameworks */,
+				42FFD11520E5559200D97931 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Nativefier GUI";
+			productName = "Nativefier GUI";
+			productReference = 42FFD11720E5559200D97931 /* Nativefier GUI.app */;
+			productType = "com.apple.product-type.application";
+		};
+		42FFD12820E5559400D97931 /* Nativefier GUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 42FFD14020E5559400D97931 /* Build configuration list for PBXNativeTarget "Nativefier GUITests" */;
+			buildPhases = (
+				42FFD12520E5559400D97931 /* Sources */,
+				42FFD12620E5559400D97931 /* Frameworks */,
+				42FFD12720E5559400D97931 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				42FFD12B20E5559400D97931 /* PBXTargetDependency */,
+			);
+			name = "Nativefier GUITests";
+			productName = "Nativefier GUITests";
+			productReference = 42FFD12920E5559400D97931 /* Nativefier GUITests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		42FFD13320E5559400D97931 /* Nativefier GUIUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 42FFD14320E5559400D97931 /* Build configuration list for PBXNativeTarget "Nativefier GUIUITests" */;
+			buildPhases = (
+				42FFD13020E5559400D97931 /* Sources */,
+				42FFD13120E5559400D97931 /* Frameworks */,
+				42FFD13220E5559400D97931 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				42FFD13620E5559400D97931 /* PBXTargetDependency */,
+			);
+			name = "Nativefier GUIUITests";
+			productName = "Nativefier GUIUITests";
+			productReference = 42FFD13420E5559400D97931 /* Nativefier GUIUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		42FFD10F20E5559200D97931 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0940;
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = "Alex Lehman";
+				TargetAttributes = {
+					42FFD11620E5559200D97931 = {
+						CreatedOnToolsVersion = 9.4;
+					};
+					42FFD12820E5559400D97931 = {
+						CreatedOnToolsVersion = 9.4;
+						TestTargetID = 42FFD11620E5559200D97931;
+					};
+					42FFD13320E5559400D97931 = {
+						CreatedOnToolsVersion = 9.4;
+						TestTargetID = 42FFD11620E5559200D97931;
+					};
+				};
+			};
+			buildConfigurationList = 42FFD11220E5559200D97931 /* Build configuration list for PBXProject "Nativefier GUI" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 42FFD10E20E5559200D97931;
+			productRefGroup = 42FFD11820E5559200D97931 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				42FFD11620E5559200D97931 /* Nativefier GUI */,
+				42FFD12820E5559400D97931 /* Nativefier GUITests */,
+				42FFD13320E5559400D97931 /* Nativefier GUIUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		42FFD11520E5559200D97931 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				42FFD11F20E5559400D97931 /* Assets.xcassets in Resources */,
+				42FFD12220E5559400D97931 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		42FFD12720E5559400D97931 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		42FFD13220E5559400D97931 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		42FFD11320E5559200D97931 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				42FFD11D20E5559200D97931 /* ViewController.swift in Sources */,
+				42FFD11B20E5559200D97931 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		42FFD12520E5559400D97931 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				42FFD12E20E5559400D97931 /* Nativefier_GUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		42FFD13020E5559400D97931 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				42FFD13920E5559400D97931 /* Nativefier_GUIUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		42FFD12B20E5559400D97931 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 42FFD11620E5559200D97931 /* Nativefier GUI */;
+			targetProxy = 42FFD12A20E5559400D97931 /* PBXContainerItemProxy */;
+		};
+		42FFD13620E5559400D97931 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 42FFD11620E5559200D97931 /* Nativefier GUI */;
+			targetProxy = 42FFD13520E5559400D97931 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		42FFD12020E5559400D97931 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				42FFD12120E5559400D97931 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		42FFD13B20E5559400D97931 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		42FFD13C20E5559400D97931 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		42FFD13E20E5559400D97931 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "Nativefier GUI/Nativefier_GUI.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = VDPRQBDH3A;
+				INFOPLIST_FILE = "Nativefier GUI/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				PRODUCT_BUNDLE_IDENTIFIER = "acdop100.Nativefier-GUI";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+			};
+			name = Debug;
+		};
+		42FFD13F20E5559400D97931 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "Nativefier GUI/Nativefier_GUI.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = VDPRQBDH3A;
+				INFOPLIST_FILE = "Nativefier GUI/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				PRODUCT_BUNDLE_IDENTIFIER = "acdop100.Nativefier-GUI";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+			};
+			name = Release;
+		};
+		42FFD14120E5559400D97931 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = VDPRQBDH3A;
+				INFOPLIST_FILE = "Nativefier GUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "acdop100.Nativefier-GUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Nativefier GUI.app/Contents/MacOS/Nativefier GUI";
+			};
+			name = Debug;
+		};
+		42FFD14220E5559400D97931 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = VDPRQBDH3A;
+				INFOPLIST_FILE = "Nativefier GUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "acdop100.Nativefier-GUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Nativefier GUI.app/Contents/MacOS/Nativefier GUI";
+			};
+			name = Release;
+		};
+		42FFD14420E5559400D97931 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = VDPRQBDH3A;
+				INFOPLIST_FILE = "Nativefier GUIUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "acdop100.Nativefier-GUIUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TEST_TARGET_NAME = "Nativefier GUI";
+			};
+			name = Debug;
+		};
+		42FFD14520E5559400D97931 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = VDPRQBDH3A;
+				INFOPLIST_FILE = "Nativefier GUIUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "acdop100.Nativefier-GUIUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TEST_TARGET_NAME = "Nativefier GUI";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		42FFD11220E5559200D97931 /* Build configuration list for PBXProject "Nativefier GUI" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				42FFD13B20E5559400D97931 /* Debug */,
+				42FFD13C20E5559400D97931 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		42FFD13D20E5559400D97931 /* Build configuration list for PBXNativeTarget "Nativefier GUI" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				42FFD13E20E5559400D97931 /* Debug */,
+				42FFD13F20E5559400D97931 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		42FFD14020E5559400D97931 /* Build configuration list for PBXNativeTarget "Nativefier GUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				42FFD14120E5559400D97931 /* Debug */,
+				42FFD14220E5559400D97931 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		42FFD14320E5559400D97931 /* Build configuration list for PBXNativeTarget "Nativefier GUIUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				42FFD14420E5559400D97931 /* Debug */,
+				42FFD14520E5559400D97931 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 42FFD10F20E5559200D97931 /* Project object */;
+}
